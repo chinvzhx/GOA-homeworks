@@ -321,4 +321,18 @@ transform-origin: left;
     box-shadow: 0 0 10px rgba(35, 59, 78, 0.5);
 }
 
+.home-page {
+    display: block;
+    position: fixed;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-page {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+}
+
 
