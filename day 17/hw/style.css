@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?cs=srgb&dl=pexels-markusspiske-1089438.jpg&fm=jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    color: aqua;
+    font-weight: 500;
+}
+
+.realuri {
+    color: rgb(231, 229, 229);
+    font-size: 3em;
+    font-weight: 700;
+    border-radius: 20%;
+}
+
+.atributes {
+    color: beige;
+        font-size: 2em;
+    font-weight: 700;
+    border-radius: 20%;
+}
+
+.explain {
+      color: beige;
+     font-size: 1em;
+    font-weight: 700;
+    border-radius: 20%;
+}
