@@ -1,0 +1,30 @@
+
+  .container {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 10px;
+    width: 200px;
+  }
+
+  .container div {
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+
+.container2 {
+    display: grid;
+    grid-column: span 2;
+     gap: 10px;
+    width: 200px;
+}
+
+.container2 div {
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+}

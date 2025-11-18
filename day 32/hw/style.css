@@ -1,0 +1,49 @@
+.table1 {
+    border-collapse: collapse;
+    text-align: center;
+}
+.table1 td {
+    border: 1px solid black;
+}
+
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table2 td {
+    padding: 10px;
+}
+
+.table3 {
+    border-collapse: collapse;
+    text-align: center;
+}
+.table3 td:first-child {
+    background: yellow;
+    color: white;
+}
+.table3 td:last-child {
+    background: blue;
+    color: white;
+}
+
+
+.table4 {
+    border-collapse: collapse;
+}
+.table4 .header {
+    background: lightgray;
+    font-weight: bold;
+}
+
+
+.table5 {
+    border-collapse: collapse;
+}
+.table5 td, .table5 th {
+    border: 2px solid red;
+    padding: 5px;
+}
+.table5 td:hover {
+    background: lightgreen;
+}
