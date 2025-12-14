@@ -1,0 +1,100 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #f8f6ff;
+    margin: 0;
+    padding: 40px;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .left-col h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+
+  .left-col p {
+    max-width: 380px;
+    font-size: 16px;
+    color: #6f6686;
+  }
+
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .rating-box {
+    background: #f3ecfa;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 330px;
+  }
+
+  .rating-box:nth-child(1) { margin-left: 60px; }
+  .rating-box:nth-child(2) { margin-left: 100px; }
+  .rating-box:nth-child(3) { margin-left: 140px; }
+
+  .stars {
+    color: hsl(29, 90%, 55%);
+    letter-spacing: 2px;
+  }
+
+  .reviews {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  .review-card {
+    background: #4b2a79;
+    color: white;
+    width: 32%;
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .profile {
+    display: flex;
+    align-items: top;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .verified {
+    font-size: 12px;
+    color: hsl(333, 70%, 70%);
+  }
+

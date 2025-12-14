@@ -1,0 +1,32 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: moveBox 3s infinite alternate;
+}
+@keyframes moveBox {
+  0% {
+    left: 0;
+    background: red;
+  }
+  100% {
+    left: 300px;
+    background: blue;
+  }
+}
+
+.hover-box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition:
+        transform 3s ease,
+        background-color 5s ease;
+}
+
+
+.hover-box:hover {
+    transform: scale(2);       
+    background-color: yellow;  
+}
