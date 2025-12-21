@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* Common box style */
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* 1. Move left to right */
+.box-move {
+  background: red;
+  animation: moveRight 3s linear forwards;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}
+
+/* 2. Text color change */
+.text-color {
+  font-size: 24px;
+  animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
+
+/* 3. Rotate 0 to 360 */
+.box-rotate {
+  background: green;
+  animation: rotateBox 2s linear infinite;
+}
+
+@keyframes rotateBox {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 4. Scale up and down */
+.box-scale {
+  background: purple;
+  animation: scaleUpDown 2s infinite;
+}
+
+@keyframes scaleUpDown {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 5. Circle movement */
+.circle {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  border-radius: 50%;
+  animation: circleMove 3s linear infinite;
+}
+
+@keyframes circleMove {
+  from {
+    transform: rotate(0deg) translateX(150px);
+  }
+  to {
+    transform: rotate(360deg) translateX(150px);
+  }
+}
