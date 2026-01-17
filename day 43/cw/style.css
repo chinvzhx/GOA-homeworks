@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: boxColor 5s linear 5;
+}
+
+@keyframes boxColor {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+
+.ball {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: ballAnim 2s ease-in-out infinite;
+}
+
+@keyframes ballAnim {
+    from {
+        background-color: blue;
+        transform: scale(1);
+    }
+    to {
+        background-color: green;
+        transform: scale(2);
+    }
+}
